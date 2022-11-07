@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/task-sheduler/static/css/main.aaaf48ca.css",
-    "main.js": "/task-sheduler/static/js/main.9d71f6e3.js",
+    "main.js": "/task-sheduler/static/js/main.dc759488.js",
     "index.html": "/task-sheduler/index.html",
     "main.aaaf48ca.css.map": "/task-sheduler/static/css/main.aaaf48ca.css.map",
-    "main.9d71f6e3.js.map": "/task-sheduler/static/js/main.9d71f6e3.js.map"
+    "main.dc759488.js.map": "/task-sheduler/static/js/main.dc759488.js.map"
   },
   "entrypoints": [
     "static/css/main.aaaf48ca.css",
-    "static/js/main.9d71f6e3.js"
+    "static/js/main.dc759488.js"
   ]
 }
