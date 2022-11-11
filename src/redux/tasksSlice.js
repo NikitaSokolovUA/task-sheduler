@@ -5,8 +5,7 @@ const handlePending = (state) => {
     state.isActive = true
 }
 
-const handleRejected = (state, action) => {
-    
+const handleRejected = (state, action) => {    
              state.isActive = false;
              state.error = action.payload;    
          }
@@ -50,7 +49,7 @@ const handleRejected = (state, action) => {
          [deleteTask.fulfilled](state, action) {
              state.isActive = false;
              state.error = null;
-             const index = state.items.findIndex(item => item.id === action.payload)
+             const index = state.items.findIndex(item => item.id === action.payload.id)
              state.items.splice(index, 1)
          },
          

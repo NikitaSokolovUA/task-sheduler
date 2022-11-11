@@ -1,17 +1,40 @@
-// import { createStore } from "redux";
-// import { devToolsEnhancer } from "@redux-devtools/extension";
+
 import { configureStore } from "@reduxjs/toolkit";
-// import { filtersReducer, taskReducer } from "./reducer";
 import { tasksReducer } from "./tasksSlice";
 import { filtersReducer } from "./filtersSlice";
+import { authReduser } from "./auth/authSlice";
+import storage from 'redux-persist/lib/storage'
+import {
+  persistStore,
+  persistReducer,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from 'redux-persist' 
+  
 
-// const enchancer = devToolsEnhancer()
+const persistConfig = {
+  key: 'auth',
+  storage,
+  whitelist: ['token']
+}
 
-// export const store = createStore(rootReducer, enchancer)
 
 export const store = configureStore({
   reducer: {
     tasks: tasksReducer,
-    filters: filtersReducer
-  }
+    filters: filtersReducer,
+    auth: persistReducer(persistConfig, authReduser),
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
 })
+
+export const persistor = persistStore(store)
