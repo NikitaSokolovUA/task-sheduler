@@ -1,13 +1,37 @@
 {
   "files": {
-    "main.css": "/task-sheduler/static/css/main.aaaf48ca.css",
-    "main.js": "/task-sheduler/static/js/main.dc759488.js",
+    "main.css": "/task-sheduler/static/css/main.7acaea2f.css",
+    "main.js": "/task-sheduler/static/js/main.a5549f2c.js",
+    "static/css/202.dd43c912.chunk.css": "/task-sheduler/static/css/202.dd43c912.chunk.css",
+    "static/js/202.b86e1857.chunk.js": "/task-sheduler/static/js/202.b86e1857.chunk.js",
+    "static/css/266.d50a66fd.chunk.css": "/task-sheduler/static/css/266.d50a66fd.chunk.css",
+    "static/js/266.64fc03ec.chunk.js": "/task-sheduler/static/js/266.64fc03ec.chunk.js",
+    "static/css/85.6b4add07.chunk.css": "/task-sheduler/static/css/85.6b4add07.chunk.css",
+    "static/js/85.b660be83.chunk.js": "/task-sheduler/static/js/85.b660be83.chunk.js",
+    "static/css/743.d50a66fd.chunk.css": "/task-sheduler/static/css/743.d50a66fd.chunk.css",
+    "static/js/743.d022f302.chunk.js": "/task-sheduler/static/js/743.d022f302.chunk.js",
+    "static/css/119.d50a66fd.chunk.css": "/task-sheduler/static/css/119.d50a66fd.chunk.css",
+    "static/js/119.1eac287e.chunk.js": "/task-sheduler/static/js/119.1eac287e.chunk.js",
+    "static/js/986.02b6eb33.chunk.js": "/task-sheduler/static/js/986.02b6eb33.chunk.js",
+    "static/js/846.c0b6fba2.chunk.js": "/task-sheduler/static/js/846.c0b6fba2.chunk.js",
     "index.html": "/task-sheduler/index.html",
-    "main.aaaf48ca.css.map": "/task-sheduler/static/css/main.aaaf48ca.css.map",
-    "main.dc759488.js.map": "/task-sheduler/static/js/main.dc759488.js.map"
+    "main.7acaea2f.css.map": "/task-sheduler/static/css/main.7acaea2f.css.map",
+    "main.a5549f2c.js.map": "/task-sheduler/static/js/main.a5549f2c.js.map",
+    "202.dd43c912.chunk.css.map": "/task-sheduler/static/css/202.dd43c912.chunk.css.map",
+    "202.b86e1857.chunk.js.map": "/task-sheduler/static/js/202.b86e1857.chunk.js.map",
+    "266.d50a66fd.chunk.css.map": "/task-sheduler/static/css/266.d50a66fd.chunk.css.map",
+    "266.64fc03ec.chunk.js.map": "/task-sheduler/static/js/266.64fc03ec.chunk.js.map",
+    "85.6b4add07.chunk.css.map": "/task-sheduler/static/css/85.6b4add07.chunk.css.map",
+    "85.b660be83.chunk.js.map": "/task-sheduler/static/js/85.b660be83.chunk.js.map",
+    "743.d50a66fd.chunk.css.map": "/task-sheduler/static/css/743.d50a66fd.chunk.css.map",
+    "743.d022f302.chunk.js.map": "/task-sheduler/static/js/743.d022f302.chunk.js.map",
+    "119.d50a66fd.chunk.css.map": "/task-sheduler/static/css/119.d50a66fd.chunk.css.map",
+    "119.1eac287e.chunk.js.map": "/task-sheduler/static/js/119.1eac287e.chunk.js.map",
+    "986.02b6eb33.chunk.js.map": "/task-sheduler/static/js/986.02b6eb33.chunk.js.map",
+    "846.c0b6fba2.chunk.js.map": "/task-sheduler/static/js/846.c0b6fba2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaaf48ca.css",
-    "static/js/main.dc759488.js"
+    "static/css/main.7acaea2f.css",
+    "static/js/main.a5549f2c.js"
   ]
 }

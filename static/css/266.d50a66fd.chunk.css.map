@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/266.d50a66fd.chunk.css","mappings":"AAAA,yBAEI,aAAS,CADT,YAAa,CACb,QAAS,CAET,aAAc,CADd,eAAgB,CAEhB,YACJ","sources":["components/Layout/Layout.module.css"],"sourcesContent":[".container {\n    display: grid;\n    gap: 16px;\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 16px;\n}"],"names":[],"sourceRoot":""}
